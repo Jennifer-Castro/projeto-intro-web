@@ -18,9 +18,10 @@ filme = { //semana3 - transformando itens anteriores em objetos
   anoDeLancamento: 1993,
   genero: 'Fantasia/Musical',
   ehNacional: false,
-  elencoPrincipal: ["Catherine O' Hara (Sally)", "Chris Sarandon (Jack)", "Ed Ivory (Papai Noel)", "William Hickey (Doctor Finklestein)"]
+  elencoPrincipal: "Catherine O' Hara (Sally), Chris Sarandon (Jack), Ed Ivory (Papai Noel), William Hickey (Doctor Finklestein)"
   //Semana 2 = criando novos dados em forma de array para os itens anteriores
 }
+
 
 //semana2 - continuação
 // console.log(
@@ -33,12 +34,12 @@ filme = { //semana3 - transformando itens anteriores em objetos
 // )
 
 filme1 = { //semana3 - transformando itens anteriores em objetos
-  titulo1: 'Adoráveis Mulheres (Little Women)',
-  sinopse1: 'Nos anos seguintes à Guerra de Secessão, Jo March e suas duas irmãs voltam para casa quando Beth, a tímida irmã caçula, desenvolve uma doença devastadora que muda para sempre a vida delas.',
-  anoDeLancamento1: 2020,
-  genero1: 'Romance',
-  ehNacional1: false,
-  elencoPrincipal1: ["Eliza Scanlen (Beth March)", "Emma Watson(Meg March)", "Florence Pugh (Amy March)", "Saoirse Ronan (Jo March)", "Timothée Chalamet (Laurie)"]//Semana 2 = criando novos dados em forma de array para os itens anteriores
+  titulo: 'Adoráveis Mulheres (Little Women)',
+  sinopse: 'Nos anos seguintes à Guerra de Secessão, Jo March e suas duas irmãs voltam para casa quando Beth, a tímida irmã caçula, desenvolve uma doença devastadora que muda para sempre a vida delas.',
+  anoDeLancamento: 2020,
+  genero: 'Romance',
+  ehNacional: false,
+  elencoPrincipal: "Eliza Scanlen (Beth March), Emma Watson(Meg March), Florence Pugh (Amy March), Saoirse Ronan (Jo March), Timothée Chalamet (Laurie)"//Semana 2 = criando novos dados em forma de array para os itens anteriores
 }
 
 //semana2 - continuação
@@ -52,14 +53,13 @@ filme1 = { //semana3 - transformando itens anteriores em objetos
 // )
 
 filme2 = { //semana3 - transformando itens anteriores em objetos
- titulo2: 'O Auto da Compadecida',
- sinopse2: 'As aventuras de João Grilo e Chicó, dois nordestinos pobres que vivem de golpes para sobreviver. Eles estão sempre enganando o povo de um pequeno vilarejo, inclusive o temido cangaceiro Severino de Aracaju, que os persegue pela região.',
- anoDeLancamento2: 2000,
- genero2: 'Comédia',
- ehNacional2: true,
- elencoPrincipal2: ["Diogo Vilela (Eurico)", "Denise Fraga (Dora)", "Fernanda Montenegro (Nossa Senhora)", "Luis Melo (Diabo)", "Marco Nanini (Cangaceiro)", "Matheus Natchergaele (João Grilo)", "Maurício Gonçalves(Jesus)", "Selton Mello (Chicó)", "Virgínia Cavendish (Rosinha)"]//Semana 2 = criando novos dados em forma de array para os itens anteriores
+ titulo: 'O Auto da Compadecida',
+ sinopse: 'As aventuras de João Grilo e Chicó, dois nordestinos pobres que vivem de golpes para sobreviver. Eles estão sempre enganando o povo de um pequeno vilarejo, inclusive o temido cangaceiro Severino de Aracaju, que os persegue pela região.',
+ anoDeLancamento: 2000,
+ genero: 'Comédia',
+ ehNacional: true,
+ elencoPrincipal: "Diogo Vilela (Eurico), Denise Fraga (Dora), Fernanda Montenegro (Nossa Senhora), Luis Melo (Diabo), Marco Nanini (Cangaceiro), Matheus Natchergaele (João Grilo), Maurício Gonçalves(Jesus), Selton Mello (Chicó), Virgínia Cavendish (Rosinha)"//Semana 2 = criando novos dados em forma de array para os itens anteriores
 }
-
 //semana2 - continuação
 // console.log(
 // `Título: ${titulo2.toUpperCase()}\n
@@ -71,12 +71,12 @@ filme2 = { //semana3 - transformando itens anteriores em objetos
 // )
 
 filme3 = { //semana3 - transformando itens anteriores em objetos
-  titulo3: 'Capitão Fantástico (Captain Fantastic)',
-  sinopse3: 'Nas florestas do estado de Washington, um pai cria seus seis filhos longe da civilização, em uma rígida rotina de aventuras. Ele é forçado a deixar o isolamento e leva sua família para encarar o mundo, desafiando sua ideia do que significa ser pai.',
-  anoDeLancamento3: 2016,
-  genero3: 'Drama',
-  ehNacional3: false,
-  elencoPrincipal3: ["Annalise Basso (Vespyr)", "Charlie Shotwell(Nai)", "George Mackay (Bo)", "Nicholas Hamilton (Rellian)", "Samantha Isler (Kielyr)", "Shree Crooks(Zaja)", "Viggo Mortensen (Ben)"] //Semana 2 = criando novos dados em forma de array para os itens anteriores
+  titulo: 'Capitão Fantástico (Captain Fantastic)',
+  sinopse: 'Nas florestas do estado de Washington, um pai cria seus seis filhos longe da civilização, em uma rígida rotina de aventuras. Ele é forçado a deixar o isolamento e leva sua família para encarar o mundo, desafiando sua ideia do que significa ser pai.',
+  anoDeLancamento: 2016,
+  genero: 'Drama',
+  ehNacional: false,
+  elencoPrincipal: "Annalise Basso (Vespyr), Charlie Shotwell(Nai), George Mackay (Bo), Nicholas Hamilton (Rellian), Samantha Isler (Kielyr), Shree Crooks(Zaja), Viggo Mortensen (Ben)" //Semana 2 = criando novos dados em forma de array para os itens anteriores
 }
 
 //semana2 - continuação
@@ -90,13 +90,23 @@ filme3 = { //semana3 - transformando itens anteriores em objetos
 // )
 
 filme4 = { //semana3 - transformando itens anteriores em objetos
-  titulo4: 'Bacurau',
-  sinopse4: 'Os moradores de Bacurau, um pequeno povoado do sertão brasileiro, descobrem que a comunidade não a mais em qualquer mapa. Aos poucos, eles percebem algo estranho na região: enquanto drones passeiam pelos céus, estrangeiros chegam à cidade. Quando carros são baleados e cadáveres começam a aparecer, Teresa, Domingas, Acácio, Plínio, Lunga e outros habitantes chegam à conclusão de que estão sendo atacados. Agora, o grupo precisa identificar o inimigo e criar coletivamente um meio de defesa.',
-  anoDeLancamento4: 2019,
-  genero4: 'Thriller',
-  ehNacional4: true,
-  elencoPrincipal4: ["Bárbara Colen (Teresa)", "Silvero Pereira (Lunga)", "Sônia Braga (Domingas)", "Thomas Aquino (Acácio)", "Wilson Rabelo (Plínio)"] //Semana 2 = criando novos dados em forma de array para os itens anteriores
+  titulo: 'Bacurau',
+  sinopse: 'Os moradores de Bacurau, um pequeno povoado do sertão brasileiro, descobrem que a comunidade não a mais em qualquer mapa. Aos poucos, eles percebem algo estranho na região: enquanto drones passeiam pelos céus, estrangeiros chegam à cidade. Quando carros são baleados e cadáveres começam a aparecer, Teresa, Domingas, Acácio, Plínio, Lunga e outros habitantes chegam à conclusão de que estão sendo atacados. Agora, o grupo precisa identificar o inimigo e criar coletivamente um meio de defesa.',
+  anoDeLancamento: 2019,
+  genero: 'Thriller',
+  ehNacional: true,
+  elencoPrincipal: "Bárbara Colen (Teresa), Silvero Pereira (Lunga), Sônia Braga (Domingas), Thomas Aquino (Acácio), Wilson Rabelo (Plínio)" //Semana 2 = criando novos dados em forma de array para os itens anteriores
 }
+
+//teste
+// novoFilme = {
+//   titulo: 'novo filme',
+//   sinopse: 'nova sinopse',
+//   anoDeLancamento: 2047,
+//   genero: 'novo genero',
+//   ehNacional: true,
+//   elencoPrincipal: 'ator1, ator2, ator3, ator4'
+// }
 
 //semana2 - continuação
 // console.log(
@@ -131,8 +141,8 @@ console.log(arrayFilmes)
 console.log(arrayFilmes.length)
 */
 
-//semana4 - 1. Validando informações para o push
 
+/*semana4 - 1. Validando informações para o push
 if(filme.ehNacional == true){
   arrayFilmes.push(filme)
   console.log(`O filme ${filme.titulo} foi adicionado pois é brasileiro, nosso array agora esta assim:`)
@@ -177,10 +187,14 @@ if(filme4.ehNacional4 == true){
   // alert("O filme não foi adicionado pois não é brasileiro")
   console.log(`O filme ${filme4.titulo4} não foi adicionado pois não é brasileiro`)
 }
+*/ 
 
 
+arrayFilmes.push(filme, filme1, filme2, filme3, filme4)
 
+// semana5 - 1.mudar a propriedade que é array de strings para apenas um string
+// semana5 - 2.criar um laço para percorrer os itens na propriedade (agora reescrita)
 
-
-
-
+for(let i = 0; i < arrayFilmes.length; i++ ) {
+   console.log(`Informações da lista de filmes que eu escolhi:\nTÍTULO: ${arrayFilmes[i].titulo.toUpperCase()}\nSinopse:${arrayFilmes[i].sinopse}\nAno de lançamento:${arrayFilmes[i].anoDeLancamento}\nGênero:${arrayFilmes[i].genero}\nFilme Nacional?:${arrayFilmes[i].ehNacional}\nElenco:${arrayFilmes[i].elencoPrincipal}`)
+}
