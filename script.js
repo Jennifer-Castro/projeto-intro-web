@@ -124,8 +124,63 @@ console.log(ehNacionalVerificacao) // false pois ehNacional; ehNacional1 e ehNac
 //semana3 - 2. Criando array vazio
 const arrayFilmes = []
 
-// semana3 - 3. Adicionando objetos criados ao array vazio
+/*
+semana3 - 3. Adicionando objetos criados ao array vazio
 arrayFilmes.push(filme, filme1, filme2, filme3, filme4)
 console.log(arrayFilmes)
 console.log(arrayFilmes.length)
+*/
+
+//semana4 - 1. Validando informações para o push
+
+if(filme.ehNacional == true){
+  arrayFilmes.push(filme)
+  console.log(`O filme ${filme.titulo} foi adicionado pois é brasileiro, nosso array agora esta assim:`)
+  console.log(arrayFilmes)
+}else{
+  // semana4 - 2. alert("O filme não foi adicionado pois não é brasileiro")
+  console.log(`O filme ${filme.titulo} não foi adicionado pois não é brasileiro`)
+}
+
+if(filme1.ehNacional1 == true){
+  arrayFilmes.push(filme1)
+  console.log(`O filme ${filme1.titulo1} foi adicionado pois é brasileiro, nosso array agora esta assim:`)
+  console.log(arrayFilmes)
+}else{
+  // alert("O filme não foi adicionado pois não é brasileiro")
+  console.log(`O filme ${filme1.titulo1} não foi adicionado pois não é brasileiro`)
+}
+
+if(filme2.ehNacional2 == true){
+  arrayFilmes.push(filme2)
+  console.log(`O filme ${filme2.titulo2} foi adicionado pois é brasileiro, nosso array agora esta assim:`)
+  console.log(arrayFilmes)
+}else{
+  // alert("O filme não foi adicionado pois não é brasileiro")
+  console.log(`O filme ${filme2.titulo} não foi adicionado pois não é brasileiro`)
+}
+
+if(filme3.ehNacional3 == true){
+  arrayFilmes.push(filme3)
+  console.log(`O filme ${filme3.titulo3} foi adicionado pois é brasileiro, nosso array agora esta assim:`)
+  console.log(arrayFilmes)
+}else{
+  // alert("O filme não foi adicionado pois não é brasileiro")
+  console.log(`O filme ${filme3.titulo3} não foi adicionado pois não é brasileiro`)
+}
+
+if(filme4.ehNacional4 == true){
+  arrayFilmes.push(filme4)
+  console.log(`O filme ${filme4.titulo4} foi adicionado pois é brasileiro, nosso array agora esta assim:`)
+  console.log(arrayFilmes)
+}else{
+  // alert("O filme não foi adicionado pois não é brasileiro")
+  console.log(`O filme ${filme4.titulo4} não foi adicionado pois não é brasileiro`)
+}
+
+
+
+
+
+
 
