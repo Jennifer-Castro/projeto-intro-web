@@ -1,18 +1,17 @@
 body {
-    display: grid;
-    grid-template-rows: 1fr 90% 1fr;    
-}
+    
+}/*semana9 -Transforme os elementos da lista de itens em Flexbox */
 main {
-    display: grid;
+    display: flex;
+    flex-direction: column;
     background-color: gray;
-    align-items: center;
 }
 /*semana8 - 1. Estilizar a pg com CSS (header e footer)*/
-#cabecalho {
+header {
     background-color: rgb(255, 69, 0);
     color: white;
     color: rgb(255, 254, 254);
-    display: flex;
+    display: grid;
     align-items: center;
     text-align: center;
     justify-content: center;
@@ -59,10 +58,10 @@ section{
     padding: 5px;
     color: #fdfbfb;
     min-width: 80%;
-    display: grid;
-    grid-template-columns: 1fr 2frg 1fr;
-    justify-items: center ;
-    align-items: center;
+    text-align:;
+}
+figure{
+    text-align: left;
 }
 
 aside {
@@ -84,7 +83,4 @@ footer {
     align-items: center;
 }
 
-section:hover {
-    background-color: gainsboro
-}
 
