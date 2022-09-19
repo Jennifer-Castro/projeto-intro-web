@@ -7,6 +7,7 @@ main {
     background-color: gray;
     align-items: center;
 }
+/*semana8 - 1. Estilizar a pg com CSS (header e footer)*/
 #cabecalho {
     background-color: rgb(255, 69, 0);
     color: white;
@@ -59,7 +60,7 @@ section{
     color: #fdfbfb;
     min-width: 80%;
     display: grid;
-    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-columns: 1fr 2frg 1fr;
     justify-items: center ;
     align-items: center;
 }
@@ -72,6 +73,7 @@ aside {
     width: 20%;
 }
 
+/*semana8 - 1. Estilizar a pg com CSS (header e footer)*/
 footer {
     background-color: rgb(255, 69, 0);
     color: rgb(0, 0, 0);
