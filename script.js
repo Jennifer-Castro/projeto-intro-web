@@ -12,13 +12,14 @@ semana1 - 2. Agora, crie três conjuntos de variáveis utilizando as caracterís
 */
 
 
-filme = { //semana3 - transformando itens anteriores em objetos
+filme = {//semana3 - transformando itens anteriores em objetos
   titulo: 'O estranho mundo de Jack (Nightmare before christmas)',
   sinopse: 'Jack Skellington, o Rei das Abóboras, se cansa de fazer o Dia das Bruxas todos os anos e deixa os limites da cidade. Por acaso, acaba atravessando o portal do Natal, onde vê a alegria do espírito natalino. Ao retornar para a Cidade do Halloween, sem ter compreendido o que viu, ele começa a convencer os cidadãos a sequestrarem o Papai Noel e fazerem seu próprio Natal. Apesar de sua leal namorada Sally ser contra, o Papai Noel é capturado e os fatos mostrarão que Sally estava certa o tempo todo.',
   anoDeLancamento: 1993,
   genero: 'Fantasia/Musical',
   ehNacional: false,
-  elencoPrincipal: "Catherine O' Hara (Sally), Chris Sarandon (Jack), Ed Ivory (Papai Noel), William Hickey (Doctor Finklestein)"
+  elencoPrincipal: "Catherine O' Hara (Sally), Chris Sarandon (Jack), Ed Ivory (Papai Noel), William Hickey (Doctor Finklestein)",
+  link: "./imagens/jackEsqueleto.jpg"
   //Semana 2 = criando novos dados em forma de array para os itens anteriores
 }
 
@@ -39,7 +40,8 @@ filme1 = { //semana3 - transformando itens anteriores em objetos
   anoDeLancamento: 2020,
   genero: 'Romance',
   ehNacional: false,
-  elencoPrincipal: "Eliza Scanlen (Beth March), Emma Watson(Meg March), Florence Pugh (Amy March), Saoirse Ronan (Jo March), Timothée Chalamet (Laurie)"//Semana 2 = criando novos dados em forma de array para os itens anteriores
+  elencoPrincipal: "Eliza Scanlen (Beth March), Emma Watson(Meg March), Florence Pugh (Amy March), Saoirse Ronan (Jo March), Timothée Chalamet (Laurie)",//Semana 2 = criando novos dados em forma de array para os itens anteriores,
+  link: "./imagens/adoraveisMulheres.jpg",
 }
 
 //semana2 - continuação
@@ -58,7 +60,8 @@ filme2 = { //semana3 - transformando itens anteriores em objetos
  anoDeLancamento: 2000,
  genero: 'Comédia',
  ehNacional: true,
- elencoPrincipal: "Diogo Vilela (Eurico), Denise Fraga (Dora), Fernanda Montenegro (Nossa Senhora), Luis Melo (Diabo), Marco Nanini (Cangaceiro), Matheus Natchergaele (João Grilo), Maurício Gonçalves(Jesus), Selton Mello (Chicó), Virgínia Cavendish (Rosinha)"//Semana 2 = criando novos dados em forma de array para os itens anteriores
+ elencoPrincipal: "Diogo Vilela (Eurico), Denise Fraga (Dora), Fernanda Montenegro (Nossa Senhora), Luis Melo (Diabo), Marco Nanini (Cangaceiro), Matheus Natchergaele (João Grilo), Maurício Gonçalves(Jesus), Selton Mello (Chicó), Virgínia Cavendish (Rosinha)", //Semana 2 = criando novos dados em forma de array para os itens anteriores
+ link: "./imagens/compadecida.jpeg"
 }
 //semana2 - continuação
 // console.log(
@@ -76,7 +79,8 @@ filme3 = { //semana3 - transformando itens anteriores em objetos
   anoDeLancamento: 2016,
   genero: 'Drama',
   ehNacional: false,
-  elencoPrincipal: "Annalise Basso (Vespyr), Charlie Shotwell(Nai), George Mackay (Bo), Nicholas Hamilton (Rellian), Samantha Isler (Kielyr), Shree Crooks(Zaja), Viggo Mortensen (Ben)" //Semana 2 = criando novos dados em forma de array para os itens anteriores
+  elencoPrincipal: "Annalise Basso (Vespyr), Charlie Shotwell(Nai), George Mackay (Bo), Nicholas Hamilton (Rellian), Samantha Isler (Kielyr), Shree Crooks(Zaja), Viggo Mortensen (Ben)", //Semana 2 = criando novos dados em forma de array para os itens anteriores
+  link:"./imagens/capitaoFantastico.jpg"
 }
 
 //semana2 - continuação
@@ -95,7 +99,8 @@ filme4 = { //semana3 - transformando itens anteriores em objetos
   anoDeLancamento: 2019,
   genero: 'Thriller',
   ehNacional: true,
-  elencoPrincipal: "Bárbara Colen (Teresa), Silvero Pereira (Lunga), Sônia Braga (Domingas), Thomas Aquino (Acácio), Wilson Rabelo (Plínio)" //Semana 2 = criando novos dados em forma de array para os itens anteriores
+  elencoPrincipal: "Bárbara Colen (Teresa), Silvero Pereira (Lunga), Sônia Braga (Domingas), Thomas Aquino (Acácio), Wilson Rabelo (Plínio)", //Semana 2 = criando novos dados em forma de array para os itens anteriores
+  link: "./imagens/bacurau-1024x614.jpg"
 }
 
 //teste
@@ -194,7 +199,24 @@ arrayFilmes.push(filme, filme1, filme2, filme3, filme4)
 
 // semana5 - 1.mudar a propriedade que é array de strings para apenas um string
 // semana5 - 2.criar um laço para percorrer os itens na propriedade (agora reescrita)
-
 for(let i = 0; i < arrayFilmes.length; i++ ) {
-   console.log(`Informações da lista de filmes que eu escolhi:\nTÍTULO: ${arrayFilmes[i].titulo.toUpperCase()}\nSinopse:${arrayFilmes[i].sinopse}\nAno de lançamento:${arrayFilmes[i].anoDeLancamento}\nGênero:${arrayFilmes[i].genero}\nFilme Nacional?:${arrayFilmes[i].ehNacional}\nElenco:${arrayFilmes[i].elencoPrincipal}`)
+   console.log(`Informações da lista de filmes que eu escolhi:\nTÍTULO: ${arrayFilmes[i].titulo.toUpperCase()}\nSinopse:${arrayFilmes[i].sinopse}\nAno de lançamento:${arrayFilmes[i].anoDeLancamento}\nGênero:${arrayFilmes[i].genero}\nFilme Nacional?:${arrayFilmes[i].ehNacional}\nElenco:${arrayFilmes[i].elencoPrincipal}\nLink:${arrayFilmes[i].link}`)
 }
+
+// semana6 - função para retornar o item procurado
+
+
+
+
+// const filmesNacionais = pokemons.map(aumentaVidaPokemon)
+// console.log(pokemonsVidaCheia)
+
+// const pokemonsDeFogo = pokemons.filter((item) => {
+//   return item.tipo === 'fogo'
+//   return item.nome 
+
+// }) 
+
+// console.log(pokemonsDeFogo)
+
+
