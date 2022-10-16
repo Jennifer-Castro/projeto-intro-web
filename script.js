@@ -19,7 +19,7 @@ filme = {//semana3 - transformando itens anteriores em objetos
   genero: 'Fantasia/Musical',
   ehNacional: false,
   elencoPrincipal: "Catherine O' Hara (Sally), Chris Sarandon (Jack), Ed Ivory (Papai Noel), William Hickey (Doctor Finklestein)",
-  link: "./imagens/jackEsqueleto.jpg"
+  link: "./imagens/jackEsqueleto.gif"
   //Semana 2 = criando novos dados em forma de array para os itens anteriores
 }
 
@@ -32,7 +32,7 @@ filme = {//semana3 - transformando itens anteriores em objetos
 // Gênero: ${genero}\n
 // Filme Nacional?: ${ehNacional}\n
 // Elenco principal: ${elencoPrincipal}`
-// )
+//  )
 
 filme1 = { //semana3 - transformando itens anteriores em objetos
   titulo: 'Adoráveis Mulheres (Little Women)',
@@ -41,7 +41,7 @@ filme1 = { //semana3 - transformando itens anteriores em objetos
   genero: 'Romance',
   ehNacional: false,
   elencoPrincipal: "Eliza Scanlen (Beth March), Emma Watson(Meg March), Florence Pugh (Amy March), Saoirse Ronan (Jo March), Timothée Chalamet (Laurie)",//Semana 2 = criando novos dados em forma de array para os itens anteriores,
-  link: "./imagens/adoraveisMulheres.jpg",
+  link: "./imagens/adoraveisMulheres.gif"
 }
 
 //semana2 - continuação
@@ -61,7 +61,7 @@ filme2 = { //semana3 - transformando itens anteriores em objetos
  genero: 'Comédia',
  ehNacional: true,
  elencoPrincipal: "Diogo Vilela (Eurico), Denise Fraga (Dora), Fernanda Montenegro (Nossa Senhora), Luis Melo (Diabo), Marco Nanini (Cangaceiro), Matheus Natchergaele (João Grilo), Maurício Gonçalves(Jesus), Selton Mello (Chicó), Virgínia Cavendish (Rosinha)", //Semana 2 = criando novos dados em forma de array para os itens anteriores
- link: "./imagens/compadecida.jpeg"
+ link: "./imagens/compadecida.gif"
 }
 //semana2 - continuação
 // console.log(
@@ -80,7 +80,7 @@ filme3 = { //semana3 - transformando itens anteriores em objetos
   genero: 'Drama',
   ehNacional: false,
   elencoPrincipal: "Annalise Basso (Vespyr), Charlie Shotwell(Nai), George Mackay (Bo), Nicholas Hamilton (Rellian), Samantha Isler (Kielyr), Shree Crooks(Zaja), Viggo Mortensen (Ben)", //Semana 2 = criando novos dados em forma de array para os itens anteriores
-  link:"./imagens/capitaoFantastico.jpg"
+  link:"./imagens/capitaoFantastico.gif"
 }
 
 //semana2 - continuação
@@ -100,7 +100,7 @@ filme4 = { //semana3 - transformando itens anteriores em objetos
   genero: 'Thriller',
   ehNacional: true,
   elencoPrincipal: "Bárbara Colen (Teresa), Silvero Pereira (Lunga), Sônia Braga (Domingas), Thomas Aquino (Acácio), Wilson Rabelo (Plínio)", //Semana 2 = criando novos dados em forma de array para os itens anteriores
-  link: "./imagens/bacurau-1024x614.jpg"
+  link: "./imagens/bacurau.gif"
 }
 
 //teste
@@ -139,16 +139,16 @@ console.log(ehNacionalVerificacao) // false pois ehNacional; ehNacional1 e ehNac
 //semana3 - 2. Criando array vazio
 const arrayFilmes = []
 
-/*
-semana3 - 3. Adicionando objetos criados ao array vazio
+
+//semana3 - 3. Adicionando objetos criados ao array vazio
 arrayFilmes.push(filme, filme1, filme2, filme3, filme4)
 console.log(arrayFilmes)
 console.log(arrayFilmes.length)
-*/
 
 
-/*semana4 - 1. Validando informações para o push
-if(filme.ehNacional == true){
+
+//semana4 - 1. Validando informações para o push
+if(filme.ehNacional === true){
   arrayFilmes.push(filme)
   console.log(`O filme ${filme.titulo} foi adicionado pois é brasileiro, nosso array agora esta assim:`)
   console.log(arrayFilmes)
@@ -157,42 +157,42 @@ if(filme.ehNacional == true){
   console.log(`O filme ${filme.titulo} não foi adicionado pois não é brasileiro`)
 }
 
-if(filme1.ehNacional1 == true){
+if(filme1.ehNacional === true){
   arrayFilmes.push(filme1)
-  console.log(`O filme ${filme1.titulo1} foi adicionado pois é brasileiro, nosso array agora esta assim:`)
+  console.log(`O filme ${filme1.titulo} foi adicionado pois é brasileiro, nosso array agora esta assim:`)
   console.log(arrayFilmes)
 }else{
   // alert("O filme não foi adicionado pois não é brasileiro")
-  console.log(`O filme ${filme1.titulo1} não foi adicionado pois não é brasileiro`)
+  console.log(`O filme ${filme1.titulo} não foi adicionado pois não é brasileiro`)
 }
 
-if(filme2.ehNacional2 == true){
+if(filme2.ehNacional === true){
   arrayFilmes.push(filme2)
-  console.log(`O filme ${filme2.titulo2} foi adicionado pois é brasileiro, nosso array agora esta assim:`)
+  console.log(`O filme ${filme2.titulo} foi adicionado pois é brasileiro, nosso array agora esta assim:`)
   console.log(arrayFilmes)
 }else{
   // alert("O filme não foi adicionado pois não é brasileiro")
   console.log(`O filme ${filme2.titulo} não foi adicionado pois não é brasileiro`)
 }
 
-if(filme3.ehNacional3 == true){
+if(filme3.ehNacional === true){
   arrayFilmes.push(filme3)
-  console.log(`O filme ${filme3.titulo3} foi adicionado pois é brasileiro, nosso array agora esta assim:`)
+  console.log(`O filme ${filme3.titulo} foi adicionado pois é brasileiro, nosso array agora esta assim:`)
   console.log(arrayFilmes)
 }else{
   // alert("O filme não foi adicionado pois não é brasileiro")
-  console.log(`O filme ${filme3.titulo3} não foi adicionado pois não é brasileiro`)
+  console.log(`O filme ${filme3.titulo} não foi adicionado pois não é brasileiro`)
 }
 
-if(filme4.ehNacional4 == true){
+if(filme4.ehNacional === true){
   arrayFilmes.push(filme4)
-  console.log(`O filme ${filme4.titulo4} foi adicionado pois é brasileiro, nosso array agora esta assim:`)
+  console.log(`O filme ${filme4.titulo} foi adicionado pois é brasileiro, nosso array agora esta assim:`)
   console.log(arrayFilmes)
 }else{
   // alert("O filme não foi adicionado pois não é brasileiro")
-  console.log(`O filme ${filme4.titulo4} não foi adicionado pois não é brasileiro`)
+  console.log(`O filme ${filme4.titulo} não foi adicionado pois não é brasileiro`)
 }
-*/ 
+
 
 
 arrayFilmes.push(filme, filme1, filme2, filme3, filme4)
@@ -203,20 +203,47 @@ for(let i = 0; i < arrayFilmes.length; i++ ) {
    console.log(`Informações da lista de filmes que eu escolhi:\nTÍTULO: ${arrayFilmes[i].titulo.toUpperCase()}\nSinopse:${arrayFilmes[i].sinopse}\nAno de lançamento:${arrayFilmes[i].anoDeLancamento}\nGênero:${arrayFilmes[i].genero}\nFilme Nacional?:${arrayFilmes[i].ehNacional}\nElenco:${arrayFilmes[i].elencoPrincipal}\nLink:${arrayFilmes[i].link}`)
 }
 
-// semana6 - função para retornar o item procurado
+// semana6 - função para retornar o item procurado 1. Crie uma função que receba como parâmetro um objeto, e devolva a string do relatório com os dados do objeto.
+
+// const filme = {nome: 'On Your Mark',
+// anoDeLancamento: 1995,
+// disponivelNetflix: false,
+// duracao: 7,
 
 
+const recebeFilme = (objeto) => {
+let novoObjeto = []
+
+for(let i in objeto){
+novoObjeto.push(objeto[i])
+}
+return novoObjeto.toString().replaceAll(",",",",",","")
+}
+
+console.log(recebeFilme(filme1))
 
 
-// const filmesNacionais = pokemons.map(aumentaVidaPokemon)
-// console.log(pokemonsVidaCheia)
+function imprimeString (objeto) { //IMPRIME UM ÚNICO OBJETO
+    
+  console.log("Este é um filme que você precia assistir:", objeto.nome, objeto.anoDeLancamento, objeto.disponivelNetflix, objeto.duracao)
 
-// const pokemonsDeFogo = pokemons.filter((item) => {
-//   return item.tipo === 'fogo'
-//   return item.nome 
+}
 
-// }) 
+//semana6 - 2. Crie uma função que recebe um array de objetos e uma string. Esta função deve retornar um objeto, e o objeto retornado deve possuir apenas os itens que tenham o nome/título igual à string passada como parâmetro. Caso não exista um item, exiba um ALERT indicando que nenhum item foi encontrado.
 
-// console.log(pokemonsDeFogo)
+// function buscaFilme (filmes){
+//   const nome = prompt("Digite o nome de um filme").toUpperCase()
+//   let objeto = arrayFilmes.filter(
+//       filme => {
+//           return filme.titulo.toUpperCase().includes(nome)
+//       }
+//   )
+//   if (objeto.length === 0){
+//       alert("Item não encontrado!")
+//   } else {
+//       return objeto
+//   }
+
+// }
 
 
