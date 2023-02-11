@@ -220,30 +220,37 @@ novoObjeto.push(objeto[i])
 return novoObjeto.toString().replaceAll(",",",",",","")
 }
 
-console.log(recebeFilme(filme1))
+console.log('semana6.1' + recebeFilme(filme1))
 
 
 function imprimeString (objeto) { //IMPRIME UM ÚNICO OBJETO
     
-  console.log("Este é um filme que você precia assistir:", objeto.nome, objeto.anoDeLancamento, objeto.disponivelNetflix, objeto.duracao)
+  console.log("Este é um filme que você precisa assistir:", objeto.nome, objeto.anoDeLancamento, objeto.disponivelNetflix, objeto.duracao)
 
 }
 
-//semana6 - 2. Crie uma função que recebe um array de objetos e uma string. Esta função deve retornar um objeto, e o objeto retornado deve possuir apenas os itens que tenham o nome/título igual à string passada como parâmetro. Caso não exista um item, exiba um ALERT indicando que nenhum item foi encontrado.
+// semana6 - 2. Crie uma função que recebe um array de objetos e uma string. Esta função deve retornar um objeto, e o objeto retornado deve possuir apenas os itens que tenham o nome/título igual à string passada como parâmetro. Caso não exista um item, exiba um ALERT indicando que nenhum item foi encontrado.
 
-// function buscaFilme (filmes){
-//   const nome = prompt("Digite o nome de um filme").toUpperCase()
-//   let objeto = arrayFilmes.filter(
-//       filme => {
-//           return filme.titulo.toUpperCase().includes(nome)
-//       }
-//   )
-//   if (objeto.length === 0){
-//       alert("Item não encontrado!")
-//   } else {
-//       return objeto
-//   }
 
-// }
+function buscaFilme(){
+  var input,busca,conteudo,conteudoItens,titulo;
+  input = document.getElementById('pesquisa');
+  busca = input.value.toUpperCase();
+  conteudo = document.getElementById('container');
+  conteudoItens = container.getElementsByTagName('section');
+  for(var i=0; i<conteudoItens.length;i++){
+   titulo = conteudoItens[i].getElementsByTagName('h3')[0]
+   if(titulo.innerHTML.toUpperCase().indexOf(busca)>-1){
+    conteudoItens[i].style.display="";
+   }else{
+    conteudoItens[i].style.display='none';
+   }if(titulo.innerHTML.toUpperCase().indexOf(busca) === 0){
+    alert('Escreva um filme válido');
+   }
+}
+}
+
+
+
 
 
